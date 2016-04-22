@@ -1,0 +1,37 @@
+a {
+  color: inheret;
+  text-decoration: none;
+}
+
+.img-scaled {
+  width: 100%;
+}
+
+.img-scaled-wh {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin:0px;
+}
+
+#background {
+  background: url('background.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 60%;
+  position: absolute;
+}
+
+#hero {
+  position: absolute;
+  color: #B3DDF2;
+  font-weight: 900;
+  font-size: 50px;
+  text-shadow: #FF0000 2px -2px 0px;
+  top: 65%;
+  left: calc(50% - 100px);
+  text-align: center;
+}

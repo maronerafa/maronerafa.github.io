@@ -30,7 +30,12 @@ $("#carousel-next").click(function(){
   }
   currentValue += 1;
   temp = currentValue;
-  currentValue = "assets/img/" + currentValue + ".jpg";
+  if (currentValue < 10) {
+    currentValue = "assets/img/" + "0" + currentValue + ".jpg";
+  } else {
+    currentValue = "assets/img/" + currentValue + ".jpg";
+  }
+
   $("#modal-img").attr("src", currentValue);
 });
 

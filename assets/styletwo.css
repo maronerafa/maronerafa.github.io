@@ -17,30 +17,25 @@ body {
   margin: 0;
 }
 
-#background {
-  background: url('background.jpg');
+#backgroundtwo {
+  background: url('IMG_8445.jpg');
   background-size: 100% 100%;
   width: 100%;
-  height: 60%;
+  height: 100%;
   position: absolute;
-  padding: 0;
 }
 
-#pagename {
-  position: relative;
-  color: #B3DDF2;
-  font-weight: 900;
-  font-size: 70px;
-  text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
-  text-align: center;
-  top: 450px;
+#backgroundtwo-overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3)
 }
-
 
 #main-menu .nav-bar {
   list-style:none;
-  margin-top: 20px;
+  margin-top: 0;
   text-align: center;
+  top: 20px;
   position: fixed;
   margin-left: 64px;
   z-index: 5;
@@ -68,9 +63,25 @@ body {
   margin-left: 80px;
 }
 
-#pageone img {
+
+.info-container {
   position: relative;
-  height: 100px;
-  top: 482px;
-  left: 256px;
+  top: 227px;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
 }

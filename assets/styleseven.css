@@ -14,40 +14,23 @@ a {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
+  margin:0px;
 }
-
-#background {
-  background: url('background.jpg');
-  background-size: 100% 100%;
-  width: 100%;
-  height: 60%;
-  position: absolute;
-  padding: 0;
-}
-
-#pagename {
-  position: relative;
-  color: #B3DDF2;
-  font-weight: 900;
-  font-size: 70px;
-  text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
-  text-align: center;
-  top: 450px;
-}
-
 
 #main-menu .nav-bar {
   list-style:none;
-  margin-top: 20px;
+  margin-top: 0;
   text-align: center;
   position: fixed;
-  margin-left: 64px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 113px;
   z-index: 5;
 }
 
 #main-menu .nav-bar li {
    display:inline-block;
+   margin-bottom: 25px;
  }
 
 #main-menu .nav-bar li a {
@@ -68,9 +51,36 @@ body {
   margin-left: 80px;
 }
 
-#pageone img {
+.pic-container {
+  width: 100%;
   position: relative;
-  height: 100px;
-  top: 482px;
-  left: 256px;
+  top: 41%;
+}
+
+.bottom img {
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+}
+
+.info-container {
+  position: relative;
+  top: 135px;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: #5E5E5E;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: #5E5E5E;
+  font-size: 15px;
+  letter-spacing: 2px;
 }

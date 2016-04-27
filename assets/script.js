@@ -32,6 +32,7 @@ $("#carousel-next").click(function(){
   temp = currentValue;
   if (currentValue < 10) {
     currentValue = "assets/img/" + "0" + currentValue + ".jpg";
+    console.log(currentValue);
   } else {
     currentValue = "assets/img/" + currentValue + ".jpg";
   }
